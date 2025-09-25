@@ -1,0 +1,5 @@
+attack_type,n,accuracy
+None,25,0.6
+Summarize_Audio,49,0.6122448979591837
+Summarize_Image,39,0.1891891891891892
+Summarize_Video,10,0.7

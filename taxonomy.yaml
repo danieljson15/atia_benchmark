@@ -1,0 +1,41 @@
+attack_keywords:
+  account-takeover: account_takeover
+  account_takeover: account_takeover
+  phishing: phishing
+  prompt-injection: prompt_injection
+  prompt_injection: prompt_injection
+  jailbreak: jailbreak
+  data-exfiltration: data_exfiltration
+  data_exfiltration: data_exfiltration
+  xss: xss
+  sql-injection: sql_injection
+  sql_injection: sql_injection
+  red-team: red_team
+  red_team: red_team
+  password-reset: password_reset
+  password_reset: password_reset
+
+modality_keywords:
+  image: image
+  vision: image
+  audio: audio
+  speech: audio
+  video: video
+  multimodal: multimodal
+  text: text
+
+# map your labels to 1/0 (tweak as needed)
+score_map:
+  "C": 1
+  "P": 1
+  "PASS": 1
+  "OK": 1
+  "TRUE": 1
+  "T": 1
+  "SUCCESS": 1
+  "F": 0
+  "I": 0
+  "FAIL": 0
+  "FALSE": 0
+  "ERROR": 0
+  "FAILED": 0
